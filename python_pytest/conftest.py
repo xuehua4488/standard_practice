@@ -10,7 +10,7 @@ def open():
     print('close browser')
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture()
 def login():
     print('登录成功')
     # yield

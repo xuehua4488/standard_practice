@@ -14,7 +14,7 @@ def test_search3():
     print('search3 function')
 
 @pytest.mark.login
-def test_login1():
+def test_login1(login):
     print('test01 login')
 
 @pytest.mark.login
